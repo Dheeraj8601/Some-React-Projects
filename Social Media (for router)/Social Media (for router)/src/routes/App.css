@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  min-height: 800px;
+  width: 180px;
+}
+
+.post-card{
+  margin:20px 50px;
+  
+}
+
+
+.hashtag{
+
+}
+
+.reactions{
+  margin:15px 0 0 0;
+}
+
+.create-post{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.btn.btn-primary {
+  cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade of blue for hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.m-10p {
+  margin: 10%;
+}
+
+.spinner-large {
+  width: 3rem;
+  height: 3rem;
+  border-width: 0.4em;
+}
+
+.spinner-extra-large {
+  width: 5rem;
+  height: 5rem;
+  border-width: 0.6em;
+}
